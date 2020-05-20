@@ -1,8 +1,10 @@
+#![feature(const_generics)]
+
 use caring::Shared;
 use interprocess_traits::ProcSync;
 use std::{marker::Sized, path::PathBuf};
 
-//pub mod list;
+pub mod slice;
 pub mod toy_struct;
 
 /// Initialize a memory mapped file.

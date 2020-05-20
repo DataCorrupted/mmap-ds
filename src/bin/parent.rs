@@ -1,6 +1,6 @@
-use mmap_ds::toy_struct::ToyStruct;
 use mmap_ds::AsMutRef;
 use mmap_ds::InitMemoryMappedFile;
+use mmap_ds::toy_struct::ToyStruct;
 use std::path::PathBuf;
 use std::process::Command;
 use std::time::Duration;
