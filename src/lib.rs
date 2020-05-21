@@ -6,6 +6,7 @@ use std::{marker::Sized, path::PathBuf};
 
 pub mod slice;
 pub mod toy_struct;
+pub mod linked_list;
 
 /// Initialize a memory mapped file.
 ///
