@@ -19,3 +19,5 @@ path = "src/bin/child.rs"
 caring = "0.2.0"
 failure = "0.1.8"
 interprocess-traits = "0.1.1"
+
+nix = "0.17.0"
